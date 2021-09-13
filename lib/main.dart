@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:untitled/screens/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,18 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: Scaffold(
-        body: Container(
-          child: const Center(
-            child: Text(
-              "Edit main.dart to continue",
-              style: TextStyle(
-                fontSize: 22.0,
-              )
-            )
-          )
-        )
-      )
+      home: const HomePage(),
     );
   }
 }
